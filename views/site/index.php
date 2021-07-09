@@ -2,10 +2,12 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Геттеры и Сеттеры';
+$this->title = 'Service Locator';
 ?>
-<div class="site-index">
-    <div class="jumbotron">
-        <h1>Геттеры и Сеттеры: на примере в PHP, а также в YII2</h1>
+    <div class="site-index">
+        <div class="jumbotron">
+            <h1>Сервис Локатор</h1>
+        </div>
     </div>
-</div>
+<h2>Содержимое сессий ключ = primary-cart</h2>
+<?php \yii\helpers\VarDumper::dump($_SESSION['primary-cart'], 10, true);?>

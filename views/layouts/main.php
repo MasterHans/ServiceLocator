@@ -39,9 +39,7 @@ AppAsset::register($this);
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Главная', 'url' => ['/site/index']],
-            ['label' => 'НЕ магические', 'url' => ['/site/non-magic']],
-            ['label' => 'Магические', 'url' => ['/site/magic']],
-            ['label' => 'В YII2', 'url' => ['/site/in-yii2']],
+            ['label' => 'Корзина', 'url' => ['/cart']],
         ],
     ]);
     NavBar::end();
